@@ -1,30 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5435bc54-1081-47aa-948e-e6e6afadfbcd" name="Changes" comment="First Commit">
-      <change afterPath="$PROJECT_DIR$/.idea/Backtracking/ComboSum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Backtracking/GenerateParentheses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Backtracking/LetterCombo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Backtracking/WordSearch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/BinaryBFS/LevelOrder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/BinaryBFS/RightSideView.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/BinarySearch/PeakElement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/BinarySearch/Search2dMatrix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/BinarySearch/SearchInsert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/BinarySearchTree/KthSmallest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/BinarySearchTree/ValidateBST.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/BinaryTreeGeneral/CountCompleteTree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Divide&amp;Conquer/SortedArrayToBST.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/HashMap/ContainsDuplicateII.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/HashMap/GroupAnagram.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/HashMap/Isomorphic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/HashMap/LongestConsecutive.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/HashMap/WordPattern.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Heap/KthLargest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Mult-dimDP/Triangle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Backtracking/Permutations.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Backtracking/Permutations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/BinaryBST/AvgLevels.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BinaryBFS/AvgLevels.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SlidingWindow/MinSizeSubarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SlidingWindow/MinSizeSubarray.py" afterDir="false" />
+    <list default="true" id="5435bc54-1081-47aa-948e-e6e6afadfbcd" name="Changes" comment="I did even more problems">
+      <change afterPath="$PROJECT_DIR$/.idea/1DDP/ClimbingStairs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Divide&amp;Conquer/SortList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Heap/KthSmallest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Kadane/MaxSubarray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/LinkedList/RemoveNthNode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Mult-dimDP/Interleaving.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Mult-dimDP/minimumPathSum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Trie/WordDict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/BitManipulation/ReverseBits.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BitManipulation/ReverseBits.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,8 +58,8 @@
       <recent name="$PROJECT_DIR$/.idea/GraphGeneral" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.KthLargest">
-    <configuration name="KthLargest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.WordDict">
+    <configuration name="ClimbingStairs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InterviewQuestions" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,11 +67,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/Heap" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/1DDP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/Heap/KthLargest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/1DDP/ClimbingStairs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,7 +80,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MinSizeSubarray" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="MaxSubarray" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InterviewQuestions" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,11 +88,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/SlidingWindow" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/Kadane" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/SlidingWindow/MinSizeSubarray.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/Kadane/MaxSubarray.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,49 +101,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Search2dMatrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="InterviewQuestions" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/BinarySearch" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/BinarySearch/Search2dMatrix.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SearchInsert" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="InterviewQuestions" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/BinarySearch" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/BinarySearch/SearchInsert.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SortedArrayToBST" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="SortList" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InterviewQuestions" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -169,7 +113,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/Divide&amp;Conquer/SortedArrayToBST.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/Divide&amp;Conquer/SortList.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="WordDict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="InterviewQuestions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/Trie" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/Trie/WordDict.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="minimumPathSum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="InterviewQuestions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/Mult-dimDP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/Mult-dimDP/minimumPathSum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.KthLargest" />
-        <item itemvalue="Python.Search2dMatrix" />
-        <item itemvalue="Python.SearchInsert" />
-        <item itemvalue="Python.SortedArrayToBST" />
-        <item itemvalue="Python.MinSizeSubarray" />
+        <item itemvalue="Python.WordDict" />
+        <item itemvalue="Python.MaxSubarray" />
+        <item itemvalue="Python.minimumPathSum" />
+        <item itemvalue="Python.ClimbingStairs" />
+        <item itemvalue="Python.SortList" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1738083961188</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="I did even more problems">
+      <created>1738526809226</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738526809226</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,7 +213,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <MESSAGE value="I did even more problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="I did even more problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -322,13 +316,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/.idea/BitManipulation/ReverseBits.py</url>
-          <line>6</line>
+          <line>11</line>
           <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/.idea/BitManipulation/ReverseBits.py</url>
-          <line>5</line>
-          <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/.idea/GraphGeneral/Surround.py</url>
@@ -460,6 +449,36 @@
           <url>file://$PROJECT_DIR$/.idea/Heap/KthLargest.py</url>
           <line>37</line>
           <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/.idea/LinkedList/RemoveNthNode.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/.idea/LinkedList/RemoveNthNode.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/.idea/Divide&amp;Conquer/SortList.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/.idea/Mult-dimDP/minimumPathSum.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/.idea/Kadane/MaxSubarray.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/.idea/Trie/WordDict.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="125" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

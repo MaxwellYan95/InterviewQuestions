@@ -1,7 +1,12 @@
 def reverseBits(n: int) -> int:
-    bitList = list(str(n))
-    bitListReverse = reversed(bitList)
-    bitString = "".join(bitListReverse)
-    return int(bitString)
+    bitList = list(str(n));
+    bitList.reverse();
+    value = 0;
+    place = 31;
+    for bit in bitList:
+        if bit == '1':
+            value += 2**place;
+        place -= 1;
+    return value;
 
-print(reverseBits(10100101000001111010011100))
+print();
