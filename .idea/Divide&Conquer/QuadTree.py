@@ -9,7 +9,7 @@ class Node:
         self.bottomRight = bottomRight
 
 class Solution:
-    def construct(self, grid: List[List[int]]) -> 'Node':
+    def construct(self, grid: list[list[int]]) -> 'Node':
         if len(grid) == 0 or len(grid[0]) == 0:
             return None;
         elif len(grid) == 1 and len(grid[0]) == 1:
