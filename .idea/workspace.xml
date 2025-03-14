@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5435bc54-1081-47aa-948e-e6e6afadfbcd" name="Changes" comment="Solved Merge K Linked Lists">
-      <change beforePath="$PROJECT_DIR$/.idea/Backtracking/WordSearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Backtracking/WordSearch.py" afterDir="false" />
+    <list default="true" id="5435bc54-1081-47aa-948e-e6e6afadfbcd" name="Changes" comment="Finished Word Search">
+      <change afterPath="$PROJECT_DIR$/.idea/BinaryTreeGeneral/FlattenTree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -218,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1741895652356</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Finished Word Search">
+      <created>1741898570862</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1741898570862</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,7 +246,8 @@
     <MESSAGE value="Done with Quad Tree Problem" />
     <MESSAGE value="Moved Quad Tree into Divide and Conquer Folder" />
     <MESSAGE value="Solved Merge K Linked Lists" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solved Merge K Linked Lists" />
+    <MESSAGE value="Finished Word Search" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Word Search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
