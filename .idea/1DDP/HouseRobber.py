@@ -15,8 +15,14 @@ class Solution:
             return max(nums[0], nums[1]);
         elif len(nums) == 3:
             return max(nums[0]+nums[2], nums[1]);
-        elif (nums[0]+nums[3] > nums[1]+nums[3]) and (nums[0]+nums[3] > nums[0]+nums[2]):
-            return nums[0] + nums[3] + self.rob(nums[5:]);
+        elif (nums[0]+nums[3] >= nums[1]+nums[3]) and (nums[0]+nums[3] >= nums[0]+nums[2]):
+            oneWay = nums[0] + nums[3] + self.rob(nums[5:]);
+            twoWay = nums[0] + nums[2] + self.rob(nums[4:]);
+            return max(oneWay, twoWay);
+        elif nums[0]+nums[2] == nums[1]+nums[3]:
+            oneWay = nums[0] + nums[2] + self.rob(nums[4:]);
+            twoWay = nums[1] + nums[3] + self.rob(nums[5:]);
+            return max(oneWay, twoWay);
         elif nums[0]+nums[2] > nums[1]+nums[3]:
             return nums[0] + nums[2] + self.rob(nums[4:]);
         return nums[1] + nums[3] + self.rob(nums[5:]);
