@@ -1,10 +1,10 @@
 class Solution:
     def wordBreak(self, s: str, wordDict: list[str]) -> bool:
-        sortedWord = sorted(wordDict, key=len, reverse=True);
-        if len(sortedWord[len(sortedWord)-1]) < len(s):
-            return False;
+        sortedWord = sorted(wordDict, key=len);
         if len(s) == 0:
             return True;
+        if len(sortedWord[0]) > len(s):
+            return False;
         for word in sortedWord:
             isLength = (len(word) <= len(s));
             if s[0: len(word)] == word and isLength:
@@ -14,5 +14,5 @@ class Solution:
         return False;
 
 sol = Solution();
-sol.wordBreak("leetcode", ["leet", "co"]);
+sol.wordBreak("leetcode", ["leet", "code"]);
 
