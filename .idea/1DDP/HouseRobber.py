@@ -15,16 +15,12 @@ class Solution:
             return max(nums[0], nums[1]);
         elif len(nums) == 3:
             return max(nums[0]+nums[2], nums[1]);
-        elif (nums[0]+nums[3] >= nums[1]+nums[3]) and (nums[0]+nums[3] >= nums[0]+nums[2]):
-            oneWay = max(nums[0], nums[1]) + nums[3] + self.reverseRob(nums[5:]);
-            twoWay = nums[0] + nums[2] + self.reverseRob(nums[4:]);
-            return max(oneWay, twoWay);
         elif nums[0]+nums[2] == nums[1]+nums[3]:
             oneWay = nums[0] + self.reverseRob(nums[2:]);
             twoWay = max(nums[0], nums[1]) + self.reverseRob(nums[3:]);
             return max(oneWay, twoWay);
-        elif nums[0]+nums[2] > nums[1]+nums[3]:
-            return nums[0] + self.reverseRob(nums[2:]);
+        elif nums[0]+nums[2] < nums[1]+nums[3]:
+            return nums[1] + self.reverseRob(nums[3:]);
         return max(nums[0], nums[1]) + self.reverseRob(nums[3:]);
 
 sol = Solution();

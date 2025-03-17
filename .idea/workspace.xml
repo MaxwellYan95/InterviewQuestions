@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb295bc-ff75-4ea4-851f-e803faa16908" name="Changes" comment="Changed rob() to reverseRob()" />
+    <list default="true" id="cdb295bc-ff75-4ea4-851f-e803faa16908" name="Changes" comment="Still working on HouseRobber.py">
+      <change beforePath="$PROJECT_DIR$/.idea/1DDP/HouseRobber.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/1DDP/HouseRobber.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742228782994</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Still working on HouseRobber.py">
+      <option name="closed" value="true" />
+      <created>1742229710744</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1742229710744</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -152,7 +163,8 @@
     <MESSAGE value="Still working on house robber problem AGAIN" />
     <MESSAGE value="Still working on house robber problem AGAIN AGAIN" />
     <MESSAGE value="Changed rob() to reverseRob()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed rob() to reverseRob()" />
+    <MESSAGE value="Still working on HouseRobber.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Still working on HouseRobber.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
