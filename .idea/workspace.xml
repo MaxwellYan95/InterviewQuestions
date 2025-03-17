@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb295bc-ff75-4ea4-851f-e803faa16908" name="Changes" comment="First attempt at the min size subarray sum problem">
+    <list default="true" id="cdb295bc-ff75-4ea4-851f-e803faa16908" name="Changes" comment="Wrote lots of code for min size subarray sum">
       <change beforePath="$PROJECT_DIR$/.idea/SlidingWindow/MinSizeSubarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SlidingWindow/MinSizeSubarray.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Trie/WordDict.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Trie/WordDict.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,20 +38,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.ComboSum.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/dvdma/Desktop/InterviewQuestions&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.ComboSum.executor": "Debug",
+    "Python.WordDict.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/dvdma/Desktop/InterviewQuestions",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Python.WordDict">
     <configuration name="ComboSum" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="InterviewQuestions" />
       <option name="ENV_FILES" value="" />
@@ -65,6 +67,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/Backtracking/ComboSum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="WordDict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="InterviewQuestions" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (InterviewQuestions)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/Trie" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/Trie/WordDict.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -96,6 +121,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.WordDict" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -178,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742236800485</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Wrote lots of code for min size subarray sum">
+      <option name="closed" value="true" />
+      <created>1742238753782</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1742238753782</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -190,7 +228,8 @@
     <MESSAGE value="Still working on HouseRobber.py" />
     <MESSAGE value="Trying to attempt min size subarray sum problem" />
     <MESSAGE value="First attempt at the min size subarray sum problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="First attempt at the min size subarray sum problem" />
+    <MESSAGE value="Wrote lots of code for min size subarray sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wrote lots of code for min size subarray sum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -199,6 +238,11 @@
           <url>file://$PROJECT_DIR$/.idea/Backtracking/ComboSum.py</url>
           <line>22</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/.idea/Trie/WordDict.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

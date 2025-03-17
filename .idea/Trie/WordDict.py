@@ -27,10 +27,7 @@ class WordDictionary:
                 for index in range(len(elemLst)):
                     if wordLst[index] != '.' and elemLst[index] != wordLst[index]:
                         foundWord = False;
-        return False;
-
-
-wordDict = WordDictionary();
-wordDict.addWord("a");
-wordDict.addWord("a");
-print(wordDict.search("a."));
+                        break;
+            else:
+                foundWord = False;
+        return foundWord;
