@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb295bc-ff75-4ea4-851f-e803faa16908" name="Changes" comment="Trying to attempt min size subarray sum problem" />
+    <list default="true" id="cdb295bc-ff75-4ea4-851f-e803faa16908" name="Changes" comment="First attempt at the min size subarray sum problem">
+      <change beforePath="$PROJECT_DIR$/.idea/SlidingWindow/MinSizeSubarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SlidingWindow/MinSizeSubarray.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742236663773</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="First attempt at the min size subarray sum problem">
+      <option name="closed" value="true" />
+      <created>1742236800485</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1742236800485</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -178,7 +189,8 @@
     <MESSAGE value="Changed rob() to reverseRob()" />
     <MESSAGE value="Still working on HouseRobber.py" />
     <MESSAGE value="Trying to attempt min size subarray sum problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trying to attempt min size subarray sum problem" />
+    <MESSAGE value="First attempt at the min size subarray sum problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="First attempt at the min size subarray sum problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
