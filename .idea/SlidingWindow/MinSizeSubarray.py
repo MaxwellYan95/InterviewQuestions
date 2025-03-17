@@ -1,40 +1,22 @@
 # second try
 
 class Solution:
-    def minWindow(self, s: str, t: str) -> str:
-        tList = list(t);
-        minLen = len(s);
-        indexDict, indexList = self.indexDictAndList(s, t);
-        minWin = "";
+    def minSubArrayLen(self, target: int, nums: List[int]) -> int:
+        # Maybe the sum is at the max int value
+        if sum(nums) < target:
+            return 0;
+        newTarget = sum(nums) - target;
+        return self.traverse(newTarget, nums);
 
-
-
-    def indexDictAndList(self, s: str, t: str) -> (dict, list[int]):
-        indexDict = {};
-        indexList = [];
-        for letter in set(list(t)):
-            indexes = self.allOccurences(s, letter);
-            for ind in indexes:
-                indexDict[ind] = letter;
-                indexList.append(ind);
-        indexList.sort();
-        return (indexDict, indexList);
-
-    def allOccurences(self, s: str, letter: str) -> list[int]:
-        startInd = 0;
-        endInd = len(s);
-        indexes = [];
-        while True:
-            if startInd >= len(s):
-                break;
-            if letter not in s[startInd: endInd]:
-                break;
-            ind = s.index(letter, startInd, endInd);
-            indexes.append(ind);
-            startInd = ind+1;
-        return indexes;
-
-
-
-sol = Solution();
-print(sol.minWindow("ADOBECODEBANC", "ABC"));
+    def traverse(self, target: int, nums: List[int]) -> int:
+        if (target == 0):
+            return len(nums);
+        if (target < 0):
+            return len(nums) + 1;
+        first = nums[0];
+        last = nums[len(nums)-1];
+        if first == last:
+            return min(self.traverse(target-first, nums[1:]), self.traverse(target-last, nums[:len(nums)-1]));
+        if first < last:
+            return self.traverse(target-first, nums[1:]);
+        return self.traverse(target-last, nums[:len(nums)-1]);
