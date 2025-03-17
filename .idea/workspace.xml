@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb295bc-ff75-4ea4-851f-e803faa16908" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Backtracking/ComboSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Backtracking/ComboSum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="cdb295bc-ff75-4ea4-851f-e803faa16908" name="Changes" comment="Complete Combination Sum">
+      <change beforePath="$PROJECT_DIR$/.idea/1DDP/HouseRobber.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/1DDP/HouseRobber.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterviewQuestions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/InterviewQuestions.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +106,20 @@
       <option name="presentableId" value="Default" />
       <updated>1742223570638</updated>
     </task>
+    <task id="LOCAL-00001" summary="Complete Combination Sum">
+      <option name="closed" value="true" />
+      <created>1742224955302</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742224955302</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Complete Combination Sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete Combination Sum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
