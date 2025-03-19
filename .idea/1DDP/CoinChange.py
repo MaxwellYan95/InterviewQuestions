@@ -9,10 +9,11 @@ class Solution:
             return -1;
         if amount == 0:
             return 0;
-        for c in coins:
+        for index in range(len(coins)):
+            c = coins[index];
             if c > amount:
                 continue;
-            next = self.traverse(coins, amount-c);
+            next = self.traverse(coins[index:], amount-c);
             if next != -1:
                 if minimum == -1:
                     minimum = next + 1;
