@@ -4,14 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb295bc-ff75-4ea4-851f-e803faa16908" name="Changes" comment="Working on WorkBreak.py">
-      <change beforePath="$PROJECT_DIR$/.idea/1DDP/WordBreak.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/1DDP/WordBreak.py" afterDir="false" />
+    <list default="true" id="cdb295bc-ff75-4ea4-851f-e803faa16908" name="Changes" comment="Still working on WorkBreak.py">
+      <change afterPath="$PROJECT_DIR$/.idea/1DDP/CoinChange.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,11 +46,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.CoinChange.executor": "Debug",
     "Python.ComboSum.executor": "Debug",
     "Python.WordBreak.executor": "Debug",
     "Python.WordDict.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/dvdma/Desktop/InterviewQuestions",
@@ -52,7 +61,30 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.WordBreak">
+  <component name="RunManager" selected="Python.CoinChange">
+    <configuration name="CoinChange" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="InterviewQuestions" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (InterviewQuestions)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/1DDP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/1DDP/CoinChange.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ComboSum" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="InterviewQuestions" />
       <option name="ENV_FILES" value="" />
@@ -146,6 +178,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.CoinChange" />
         <item itemvalue="Python.WordBreak" />
         <item itemvalue="Python.WordDict" />
       </list>
@@ -256,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742240898785</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Still working on WorkBreak.py">
+      <option name="closed" value="true" />
+      <created>1742241438865</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1742241438865</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -271,7 +312,8 @@
     <MESSAGE value="Wrote lots of code for min size subarray sum" />
     <MESSAGE value="Finished Word Dictionary" />
     <MESSAGE value="Working on WorkBreak.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on WorkBreak.py" />
+    <MESSAGE value="Still working on WorkBreak.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Still working on WorkBreak.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -290,6 +332,16 @@
           <url>file://$PROJECT_DIR$/.idea/1DDP/WordBreak.py</url>
           <line>18</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/.idea/1DDP/CoinChange.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/.idea/1DDP/CoinChange.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
