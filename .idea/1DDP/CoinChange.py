@@ -4,7 +4,6 @@ class Solution:
         return self.traverse(sortedCoins, amount);
 
     def traverse(self, coins: list[int], amount: int) -> int:
-        found = False;
         minimum = -1;
         if amount < 0:
             return -1;
@@ -13,15 +12,14 @@ class Solution:
         for c in coins:
             if c > amount:
                 continue;
-            coinAmount = int(amount/c);
-            newAmount = int(amount - (c*coinAmount));
-            next = self.traverse(coins, newAmount);
-            if found == False and next != -1:
-                minimum = next + coinAmount;
-                found = True;
-            else:
-                if next != -1:
-                    minimum = min(minimum, next + coinAmount);
+            next = self.traverse(coins, amount-c);
+            if next != -1:
+                if minimum == -1:
+                    minimum = next + 1;
+                elif minimum > next + 1:
+                    minimum = next + 1;
+                else:
+                    break;
         return minimum;
 
 sol = Solution();
