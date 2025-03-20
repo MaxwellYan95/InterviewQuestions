@@ -1,27 +1,33 @@
-def rangeBitwiseAnd(left: int, right: int) -> int:
-    leftCopy = left
-    leftBits = []
-    rightCopy = right
-    rightBits = []
-    andBits = []
-    for pow in range(30, -1, -1):
-        if 2**pow <= leftCopy:
-            leftBits.append(1)
-            leftCopy = leftCopy - 2**pow
-        else:
-            leftBits.append(0)
-        if 2**pow <= rightCopy:
-            rightBits.append(1)
-            rightCopy = rightCopy - 2**pow
-        else:
-            rightBits.append(0)
+class Solution:
+    def rangeBitwiseAnd(self, left: int, right: int) -> int:
+        if left == right:
+            return left;
+        leftBits = self.convertToBits(left);
+        rightBits = self.convertToBits(right);
+        place = 31;
+        for index in range(len(leftBits)):
+            if (leftBits[index] == 1 and rightBits[index] == 1):
+                result = 2**place;
+                index = index + 1;
+                place = place - 1;
+                while (leftBits[index] == rightBits[index]):
+                    if leftBits[index] == 1:
+                        result = result + 2**place;
+                    index = index + 1;
+                    place = place - 1;
+                return result;
+            elif (leftBits[index] == 1 or rightBits[index] == 1):
+                break;
+            place = place - 1;
+        return 0;
 
-    max = 30
-    result = 0
-    for index in range(len(leftBits)):
-        if leftBits[index] == 1 and rightBits[index] == 1:
-            result = result + 2**max
-        max = max - 1
-    return result
-
-print(rangeBitwiseAnd(5, 7))
+    def convertToBits(self, num: int) -> list[int]:
+        temp = num;
+        bits = [];
+        for place in range(31, -1, -1):
+            if 2**place <= temp:
+                bits.append(1);
+                temp = temp - 2**place;
+            else:
+                bits.append(0);
+        return bits;
