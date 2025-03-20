@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f3a1f49-b38c-4bd8-9957-141dfe34b7a2" name="Changes" comment="Working on WordLadder.py">
-      <change beforePath="$PROJECT_DIR$/.idea/GraphBFS/WordLadder.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GraphBFS/WordLadder.py" afterDir="false" />
+    <list default="true" id="0f3a1f49-b38c-4bd8-9957-141dfe34b7a2" name="Changes" comment="Still Working on WordLadder.py">
+      <change afterPath="$PROJECT_DIR$/.idea/Array&amp;String/Candy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +47,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.BitwiseAndBits.executor": "Debug",
+    "Python.Candy.executor": "Debug",
     "Python.FirstLastPos.executor": "Debug",
     "Python.ReverseKGroups.executor": "Debug",
     "Python.RotatedSorted.executor": "Debug",
@@ -64,7 +65,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.WordLadder">
+  <component name="RunManager" selected="Python.Candy">
     <configuration name="BitwiseAndBits" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InterviewQuestions" />
       <option name="ENV_FILES" value="" />
@@ -79,6 +80,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/BitManipulation/BitwiseAndBits.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Candy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="InterviewQuestions" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/Array&amp;String" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/Array&amp;String/Candy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,28 +154,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RotatedSorted" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="InterviewQuestions" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/BinarySearch" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/BinarySearch/RotatedSorted.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="WordLadder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InterviewQuestions" />
       <option name="ENV_FILES" value="" />
@@ -177,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Candy" />
         <item itemvalue="Python.WordLadder" />
         <item itemvalue="Python.ReverseKGroups" />
         <item itemvalue="Python.BitwiseAndBits" />
         <item itemvalue="Python.FirstLastPos" />
-        <item itemvalue="Python.RotatedSorted" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742502409522</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Still Working on WordLadder.py">
+      <option name="closed" value="true" />
+      <created>1742504049676</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1742504049676</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -270,7 +279,8 @@
     <MESSAGE value="Solved BitwiseAndBits.py" />
     <MESSAGE value="Solved ReverseKGroups.py" />
     <MESSAGE value="Working on WordLadder.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on WordLadder.py" />
+    <MESSAGE value="Still Working on WordLadder.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Still Working on WordLadder.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -299,6 +309,16 @@
           <url>file://$PROJECT_DIR$/.idea/GraphBFS/WordLadder.py</url>
           <line>39</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/.idea/Array&amp;String/Candy.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/.idea/Array&amp;String/Candy.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
