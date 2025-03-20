@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb295bc-ff75-4ea4-851f-e803faa16908" name="Changes" comment="Improved attempt for CoinChange.py">
-      <change beforePath="$PROJECT_DIR$/.idea/1DDP/CoinChange.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/1DDP/CoinChange.py" afterDir="false" />
+    <list default="true" id="0f3a1f49-b38c-4bd8-9957-141dfe34b7a2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/BinaryBFS/ZigZag.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterviewQuestions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/InterviewQuestions.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,33 +24,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;MaxwellYan95&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "MaxwellYan95"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/MaxwellYan95/InterviewQuestions&quot;,
-    &quot;accountId&quot;: &quot;5a544115-57ae-48ab-aa79-ac3abe49954a&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/MaxwellYan95/InterviewQuestions",
+    "accountId": "5a544115-57ae-48ab-aa79-ac3abe49954a"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4
 }</component>
-  <component name="ProjectId" id="2uRuB9WT1svq6Lg2yEAke07jkKJ" />
+  <component name="ProjectId" id="2uaNnfE4qq3F0yUgUZfYRJUwzBu" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.CoinChange.executor": "Debug",
-    "Python.ComboSum.executor": "Debug",
-    "Python.WordBreak.executor": "Debug",
-    "Python.WordDict.executor": "Debug",
+    "Python.ZigZag.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -57,12 +55,13 @@
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/dvdma/Desktop/InterviewQuestions",
     "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.CoinChange">
-    <configuration name="CoinChange" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="ZigZag" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InterviewQuestions" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,103 +70,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.12 (InterviewQuestions)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/1DDP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/BinaryBFS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/1DDP/CoinChange.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ComboSum" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="InterviewQuestions" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/Backtracking" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/Backtracking/ComboSum.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="WordBreak" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="InterviewQuestions" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.12 (InterviewQuestions)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/1DDP" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/1DDP/WordBreak.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="WordDict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="InterviewQuestions" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.12 (InterviewQuestions)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/Trie" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/Trie/WordDict.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="InterviewQuestions" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.12 (InterviewQuestions)" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/BinaryBFS/ZigZag.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,183 +85,28 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.CoinChange" />
-        <item itemvalue="Python.WordBreak" />
-        <item itemvalue="Python.WordDict" />
+        <item itemvalue="Python.ZigZag" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cdb295bc-ff75-4ea4-851f-e803faa16908" name="Changes" comment="" />
-      <created>1742223570638</created>
+      <changelist id="0f3a1f49-b38c-4bd8-9957-141dfe34b7a2" name="Changes" comment="" />
+      <created>1742482893943</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1742223570638</updated>
+      <updated>1742482893943</updated>
     </task>
-    <task id="LOCAL-00001" summary="Complete Combination Sum">
-      <option name="closed" value="true" />
-      <created>1742224955302</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1742224955302</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Still working on house robber problem">
-      <option name="closed" value="true" />
-      <created>1742227105950</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1742227105950</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Still working on house robber problem AGAIN">
-      <option name="closed" value="true" />
-      <created>1742227134356</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1742227134356</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Still working on house robber problem AGAIN AGAIN">
-      <option name="closed" value="true" />
-      <created>1742228686332</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1742228686332</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Changed rob() to reverseRob()">
-      <option name="closed" value="true" />
-      <created>1742228782994</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1742228782994</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Still working on HouseRobber.py">
-      <option name="closed" value="true" />
-      <created>1742229710744</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1742229710744</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Still working on HouseRobber.py">
-      <option name="closed" value="true" />
-      <created>1742234690516</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1742234690516</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Trying to attempt min size subarray sum problem">
-      <option name="closed" value="true" />
-      <created>1742236663773</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1742236663773</updated>
-    </task>
-    <task id="LOCAL-00009" summary="First attempt at the min size subarray sum problem">
-      <option name="closed" value="true" />
-      <created>1742236800485</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1742236800485</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Wrote lots of code for min size subarray sum">
-      <option name="closed" value="true" />
-      <created>1742238753782</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1742238753782</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Finished Word Dictionary">
-      <option name="closed" value="true" />
-      <created>1742240291047</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1742240291047</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Working on WorkBreak.py">
-      <option name="closed" value="true" />
-      <created>1742240898785</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1742240898785</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Still working on WorkBreak.py">
-      <option name="closed" value="true" />
-      <created>1742241438865</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1742241438865</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Still trying to solve CoinChange.py">
-      <option name="closed" value="true" />
-      <created>1742412970042</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1742412970042</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Improved attempt for CoinChange.py">
-      <option name="closed" value="true" />
-      <created>1742413645080</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1742413645080</updated>
-    </task>
-    <option name="localTasksCounter" value="16" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Complete Combination Sum" />
-    <MESSAGE value="Still working on house robber problem" />
-    <MESSAGE value="Still working on house robber problem AGAIN" />
-    <MESSAGE value="Still working on house robber problem AGAIN AGAIN" />
-    <MESSAGE value="Changed rob() to reverseRob()" />
-    <MESSAGE value="Still working on HouseRobber.py" />
-    <MESSAGE value="Trying to attempt min size subarray sum problem" />
-    <MESSAGE value="First attempt at the min size subarray sum problem" />
-    <MESSAGE value="Wrote lots of code for min size subarray sum" />
-    <MESSAGE value="Finished Word Dictionary" />
-    <MESSAGE value="Working on WorkBreak.py" />
-    <MESSAGE value="Still working on WorkBreak.py" />
-    <MESSAGE value="Still trying to solve CoinChange.py" />
-    <MESSAGE value="Improved attempt for CoinChange.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved attempt for CoinChange.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/.idea/Backtracking/ComboSum.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/.idea/Trie/WordDict.py</url>
-          <line>32</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/.idea/1DDP/WordBreak.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/.idea/1DDP/CoinChange.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="8" />
+          <url>file://$PROJECT_DIR$/.idea/BinaryBFS/ZigZag.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
