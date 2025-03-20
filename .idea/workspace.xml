@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f3a1f49-b38c-4bd8-9957-141dfe34b7a2" name="Changes" comment="Still working on RotatedSorted.py">
+    <list default="true" id="0f3a1f49-b38c-4bd8-9957-141dfe34b7a2" name="Changes" comment="RotatedSorted.py is Hard">
       <change beforePath="$PROJECT_DIR$/.idea/BinarySearch/RotatedSorted.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BinarySearch/RotatedSorted.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -23,18 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "MaxwellYan95"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MaxwellYan95&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/MaxwellYan95/InterviewQuestions",
-    "accountId": "5a544115-57ae-48ab-aa79-ac3abe49954a"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MaxwellYan95/InterviewQuestions&quot;,
+    &quot;accountId&quot;: &quot;5a544115-57ae-48ab-aa79-ac3abe49954a&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4
@@ -44,22 +44,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.RotatedSorted.executor": "Debug",
-    "Python.ZigZag.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/dvdma/Desktop/InterviewQuestions",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.RotatedSorted.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ZigZag.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dvdma/Desktop/InterviewQuestions&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.RotatedSorted">
     <configuration name="RotatedSorted" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InterviewQuestions" />
@@ -137,13 +137,22 @@
       <option name="project" value="LOCAL" />
       <updated>1742487197208</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="RotatedSorted.py is Hard">
+      <option name="closed" value="true" />
+      <created>1742488210633</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742488210633</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Done with ZigZag Tree Traversal" />
     <MESSAGE value="Still working on RotatedSorted.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Still working on RotatedSorted.py" />
+    <MESSAGE value="RotatedSorted.py is Hard" />
+    <option name="LAST_COMMIT_MESSAGE" value="RotatedSorted.py is Hard" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -155,8 +164,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/.idea/BinarySearch/RotatedSorted.py</url>
-          <line>58</line>
-          <option name="timeStamp" value="6" />
+          <line>48</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
