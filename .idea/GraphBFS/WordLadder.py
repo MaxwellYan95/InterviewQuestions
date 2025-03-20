@@ -3,19 +3,24 @@ class Solution:
         if endWord not in wordList:
             return 0;
         if len(wordList) == 1:
-            if endWord == wordList[0]:
+            if endWord == wordList[0] and self.canTransform(beginWord, endWord) == True:
                 return 1;
             return 0;
         numbers = [];
+        trans = [];
         for word in wordList:
             if self.canTransform(beginWord, word) == True:
+                if word == beginWord:
+                    continue;
                 if word == endWord:
-                    numbers.append(1);
-                lst = wordList;
-                lst.remove(word);
-                prevMoves = self.ladderLength(word, endWord, lst);
-                if prevMoves != 0:
-                    numbers.append(1 + prevMoves);
+                    return 2;
+                trans.append(word);
+        wordCopy = wordList.copy();
+        wordCopy.remove(trans);
+        for move in trans:
+            next = self.ladderLength(move, endWord, wordCopy);
+            if next != 0:
+                numbers.append(next + 1);
         if len(numbers) == 0:
             return 0;
         return min(numbers);
@@ -31,3 +36,5 @@ class Solution:
 
 sol = Solution();
 print(sol.ladderLength("hit", "cog", ["hot","dot","dog","lot","log","cog"]));
+print(sol.ladderLength("hot", "dog", ["hot","dog"]));
+print(sol.ladderLength("a", "c", ["a","b", "c"]));
