@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f3a1f49-b38c-4bd8-9957-141dfe34b7a2" name="Changes" comment="Solved BitwiseAndBits.py">
-      <change afterPath="$PROJECT_DIR$/.idea/LinkedList/ReverseKGroups.py" afterDir="false" />
+    <list default="true" id="0f3a1f49-b38c-4bd8-9957-141dfe34b7a2" name="Changes" comment="Solved ReverseKGroups.py">
+      <change afterPath="$PROJECT_DIR$/.idea/GraphBFS/WordLadder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +50,7 @@
     "Python.FirstLastPos.executor": "Debug",
     "Python.ReverseKGroups.executor": "Debug",
     "Python.RotatedSorted.executor": "Debug",
+    "Python.WordLadder.executor": "Debug",
     "Python.ZigZag.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -63,7 +64,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.ReverseKGroups">
+  <component name="RunManager" selected="Python.WordLadder">
     <configuration name="BitwiseAndBits" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InterviewQuestions" />
       <option name="ENV_FILES" value="" />
@@ -152,7 +153,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ZigZag" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="WordLadder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InterviewQuestions" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,11 +162,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/BinaryBFS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/GraphBFS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/BinaryBFS/ZigZag.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/GraphBFS/WordLadder.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.WordLadder" />
         <item itemvalue="Python.ReverseKGroups" />
         <item itemvalue="Python.BitwiseAndBits" />
         <item itemvalue="Python.FirstLastPos" />
         <item itemvalue="Python.RotatedSorted" />
-        <item itemvalue="Python.ZigZag" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742497890570</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Solved ReverseKGroups.py">
+      <option name="closed" value="true" />
+      <created>1742499350300</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1742499350300</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -251,7 +260,8 @@
     <MESSAGE value="Solved RotatedSorted.py" />
     <MESSAGE value="Solved FirstLastPos.py.py" />
     <MESSAGE value="Solved BitwiseAndBits.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solved BitwiseAndBits.py" />
+    <MESSAGE value="Solved ReverseKGroups.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved ReverseKGroups.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -275,6 +285,11 @@
           <url>file://$PROJECT_DIR$/.idea/LinkedList/ReverseKGroups.py</url>
           <line>43</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/.idea/GraphBFS/WordLadder.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
