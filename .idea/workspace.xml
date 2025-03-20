@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f3a1f49-b38c-4bd8-9957-141dfe34b7a2" name="Changes" comment="Done with ZigZag Tree Traversal">
-      <change afterPath="$PROJECT_DIR$/.idea/BinarySearch/RotatedSorted.py" afterDir="false" />
+    <list default="true" id="0f3a1f49-b38c-4bd8-9957-141dfe34b7a2" name="Changes" comment="Still working on RotatedSorted.py">
+      <change beforePath="$PROJECT_DIR$/.idea/BinarySearch/RotatedSorted.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BinarySearch/RotatedSorted.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,12 +129,21 @@
       <option name="project" value="LOCAL" />
       <updated>1742484258236</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Still working on RotatedSorted.py">
+      <option name="closed" value="true" />
+      <created>1742487197208</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742487197208</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Done with ZigZag Tree Traversal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done with ZigZag Tree Traversal" />
+    <MESSAGE value="Still working on RotatedSorted.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Still working on RotatedSorted.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -146,8 +155,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/.idea/BinarySearch/RotatedSorted.py</url>
-          <line>40</line>
-          <option name="timeStamp" value="3" />
+          <line>58</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
