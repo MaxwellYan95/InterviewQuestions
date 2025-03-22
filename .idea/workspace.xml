@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f3a1f49-b38c-4bd8-9957-141dfe34b7a2" name="Changes" comment="Working on Candy.py">
+    <list default="true" id="0f3a1f49-b38c-4bd8-9957-141dfe34b7a2" name="Changes" comment="Still Working on Candy.py">
+      <change afterPath="$PROJECT_DIR$/.idea/Array&amp;String/BuySell2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Array&amp;String/RainWater.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Array&amp;String/Candy.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Array&amp;String/Candy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TwoPointers/container.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TwoPointers/container.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +52,7 @@
     "Python.BitwiseAndBits.executor": "Debug",
     "Python.Candy.executor": "Debug",
     "Python.FirstLastPos.executor": "Debug",
+    "Python.RainWater.executor": "Run",
     "Python.ReverseKGroups.executor": "Debug",
     "Python.RotatedSorted.executor": "Debug",
     "Python.WordLadder.executor": "Debug",
@@ -65,7 +69,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.Candy">
+  <component name="RunManager" selected="Python.RainWater">
     <configuration name="BitwiseAndBits" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InterviewQuestions" />
       <option name="ENV_FILES" value="" />
@@ -110,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="FirstLastPos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="RainWater" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InterviewQuestions" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,11 +123,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/BinarySearch" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/Array&amp;String" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/BinarySearch/FirstLastPos.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/Array&amp;String/RainWater.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.RainWater" />
         <item itemvalue="Python.Candy" />
         <item itemvalue="Python.WordLadder" />
         <item itemvalue="Python.ReverseKGroups" />
         <item itemvalue="Python.BitwiseAndBits" />
-        <item itemvalue="Python.FirstLastPos" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742506015015</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Still Working on Candy.py">
+      <option name="closed" value="true" />
+      <created>1742506928176</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1742506928176</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -289,7 +301,8 @@
     <MESSAGE value="Working on WordLadder.py" />
     <MESSAGE value="Still Working on WordLadder.py" />
     <MESSAGE value="Working on Candy.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on Candy.py" />
+    <MESSAGE value="Still Working on Candy.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Still Working on Candy.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -321,13 +334,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/.idea/Array&amp;String/Candy.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="25" />
+          <line>17</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/.idea/Array&amp;String/Candy.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="27" />
+          <url>file://$PROJECT_DIR$/.idea/Array&amp;String/RainWater.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
