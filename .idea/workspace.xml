@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f3a1f49-b38c-4bd8-9957-141dfe34b7a2" name="Changes" comment="Still Working on Candy.py">
-      <change afterPath="$PROJECT_DIR$/.idea/Array&amp;String/BuySell2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Array&amp;String/RainWater.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Array&amp;String/Candy.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Array&amp;String/Candy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TwoPointers/container.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TwoPointers/container.py" afterDir="false" />
+    <list default="true" id="7d4acb8e-65c5-4fc5-9bff-f170461d098d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/1DDP/CoinChange.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/1DDP/CoinChange.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/1DDP/HouseRobber.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/1DDP/HouseRobber.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Divide&amp;Conquer/SortList.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Divide&amp;Conquer/SortList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Mult-dimDP/Interleaving.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Mult-dimDP/Interleaving.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,321 +26,56 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;MaxwellYan95&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "MaxwellYan95"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/MaxwellYan95/InterviewQuestions&quot;,
-    &quot;accountId&quot;: &quot;5a544115-57ae-48ab-aa79-ac3abe49954a&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/MaxwellYan95/InterviewQuestions",
+    "accountId": "5a544115-57ae-48ab-aa79-ac3abe49954a"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4
 }</component>
-  <component name="ProjectId" id="2uaNnfE4qq3F0yUgUZfYRJUwzBu" />
+  <component name="ProjectId" id="2upp2wg22cTEyR8FXvGlaP9djiM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.BitwiseAndBits.executor": "Debug",
-    "Python.Candy.executor": "Debug",
-    "Python.FirstLastPos.executor": "Debug",
-    "Python.RainWater.executor": "Run",
-    "Python.ReverseKGroups.executor": "Debug",
-    "Python.RotatedSorted.executor": "Debug",
-    "Python.WordLadder.executor": "Debug",
-    "Python.ZigZag.executor": "Debug",
+    "Python.CoinChange.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/dvdma/Desktop/InterviewQuestions",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "last_opened_file_path": "C:/Users/dvdma/Desktop/InterviewQuestions"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.RainWater">
-    <configuration name="BitwiseAndBits" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="InterviewQuestions" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/BitManipulation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/BitManipulation/BitwiseAndBits.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Candy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="InterviewQuestions" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/Array&amp;String" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/Array&amp;String/Candy.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="RainWater" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="InterviewQuestions" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/Array&amp;String" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/Array&amp;String/RainWater.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ReverseKGroups" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="InterviewQuestions" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/LinkedList" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/LinkedList/ReverseKGroups.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="WordLadder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="InterviewQuestions" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/GraphBFS" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/GraphBFS/WordLadder.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.RainWater" />
-        <item itemvalue="Python.Candy" />
-        <item itemvalue="Python.WordLadder" />
-        <item itemvalue="Python.ReverseKGroups" />
-        <item itemvalue="Python.BitwiseAndBits" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0f3a1f49-b38c-4bd8-9957-141dfe34b7a2" name="Changes" comment="" />
-      <created>1742482893943</created>
+      <changelist id="7d4acb8e-65c5-4fc5-9bff-f170461d098d" name="Changes" comment="" />
+      <created>1742955166917</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1742482893943</updated>
+      <updated>1742955166917</updated>
     </task>
-    <task id="LOCAL-00001" summary="Done with ZigZag Tree Traversal">
-      <option name="closed" value="true" />
-      <created>1742484258236</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1742484258236</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Still working on RotatedSorted.py">
-      <option name="closed" value="true" />
-      <created>1742487197208</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1742487197208</updated>
-    </task>
-    <task id="LOCAL-00003" summary="RotatedSorted.py is Hard">
-      <option name="closed" value="true" />
-      <created>1742488210633</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1742488210633</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Solved RotatedSorted.py">
-      <option name="closed" value="true" />
-      <created>1742494769200</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1742494769200</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Solved FirstLastPos.py.py">
-      <option name="closed" value="true" />
-      <created>1742496514067</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1742496514067</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Solved BitwiseAndBits.py">
-      <option name="closed" value="true" />
-      <created>1742497890570</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1742497890570</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Solved ReverseKGroups.py">
-      <option name="closed" value="true" />
-      <created>1742499350300</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1742499350300</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Working on WordLadder.py">
-      <option name="closed" value="true" />
-      <created>1742502409522</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1742502409522</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Still Working on WordLadder.py">
-      <option name="closed" value="true" />
-      <created>1742504049676</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1742504049676</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Working on Candy.py">
-      <option name="closed" value="true" />
-      <created>1742506015015</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1742506015015</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Still Working on Candy.py">
-      <option name="closed" value="true" />
-      <created>1742506928176</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1742506928176</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Done with ZigZag Tree Traversal" />
-    <MESSAGE value="Still working on RotatedSorted.py" />
-    <MESSAGE value="RotatedSorted.py is Hard" />
-    <MESSAGE value="Solved RotatedSorted.py" />
-    <MESSAGE value="Solved FirstLastPos.py.py" />
-    <MESSAGE value="Solved BitwiseAndBits.py" />
-    <MESSAGE value="Solved ReverseKGroups.py" />
-    <MESSAGE value="Working on WordLadder.py" />
-    <MESSAGE value="Still Working on WordLadder.py" />
-    <MESSAGE value="Working on Candy.py" />
-    <MESSAGE value="Still Working on Candy.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Still Working on Candy.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/.idea/BinaryBFS/ZigZag.py</url>
-          <line>55</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/.idea/BinarySearch/RotatedSorted.py</url>
-          <line>53</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/.idea/BitManipulation/BitwiseAndBits.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/.idea/LinkedList/ReverseKGroups.py</url>
-          <line>43</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/.idea/GraphBFS/WordLadder.py</url>
-          <line>39</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/.idea/Array&amp;String/Candy.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/.idea/Array&amp;String/RainWater.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="34" />
+          <url>file://$PROJECT_DIR$/.idea/1DDP/CoinChange.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

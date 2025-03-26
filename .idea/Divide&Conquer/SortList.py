@@ -7,24 +7,51 @@ class ListNode:
 
 class Solution:
     def sortList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        lst = self.convertToArray(head);
-        lst.sort();
-        return self.convertToLinkedList(lst);
-
-    def convertToArray(self, head: Optional[ListNode]) -> list[int]:
         if head == None:
-            return [];
-        lst = self.convertToArray(head.next);
-        lst.append(head.val);
-        return lst;
-
-    def convertToLinkedList(self, lst: list[int]) -> Optional[ListNode]:
-        if len(lst) == 0:
             return None;
-        if len(lst) == 1:
-            return ListNode(lst[0], None);
-        next = self.convertToLinkedList(lst[1:]);
-        return ListNode(lst[0], next);
+        if head.next == None:
+            return head;
+        temp = head;
+        fast = head;
+        slow = head;
+        while fast != None:
+            temp = slow;
+            slow = slow.next;
+            fast = fast.next;
+            if fast == None:
+                break;
+            fast = fast.next;
+        temp.next = None;
+        left = self.sortList(head);
+        right = self.sortList(slow);
+        if left == None:
+            return right;
+        elif right == None:
+            return left;
+        newHead = ListNode(left.val, None);
+        if right.val < left.val:
+            newHead = ListNode(right.val, None);
+            right = right.next;
+        else:
+            left = left.next;
+        pointer = newHead;
+        while left != None and right != None:
+            if right.val < left.val:
+                pointer.next = ListNode(right.val, None);
+                right = right.next;
+            else:
+                pointer.next = ListNode(left.val, None);
+                left = left.next;
+            pointer = pointer.next;
+        while right != None:
+            pointer.next = ListNode(right.val, None);
+            right = right.next;
+            pointer = pointer.next;
+        while left != None:
+            pointer.next = ListNode(left.val, None);
+            left = left.next;
+            pointer = pointer.next;
+        return newHead;
 
 sol = Solution()
 sol.convertToLinkedList([1, 2, 3, 4]);

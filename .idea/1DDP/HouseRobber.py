@@ -1,27 +1,16 @@
 class Solution:
     def rob(self, nums: list[int]) -> int:
-        nums.reverse();
-        reverseAns = self.reverseRob(nums);
-        nums.reverse();
-        ans = self.reverseRob(nums);
-        return max(reverseAns, ans);
-
-    def reverseRob(self, nums: list[int]) -> int:
+        n = len(nums);
+        move = [0] * n;
         if len(nums) == 0:
             return 0;
-        elif len(nums) == 1:
+        if len(nums) == 1:
             return nums[0];
-        elif len(nums) == 2:
-            return max(nums[0], nums[1]);
-        elif len(nums) == 3:
-            return max(nums[0]+nums[2], nums[1]);
-        elif nums[0]+nums[2] == nums[1]+nums[3]:
-            oneWay = nums[0] + self.reverseRob(nums[2:]);
-            twoWay = max(nums[0], nums[1]) + self.reverseRob(nums[3:]);
-            return max(oneWay, twoWay);
-        elif nums[0]+nums[2] < nums[1]+nums[3]:
-            return nums[1] + self.reverseRob(nums[3:]);
-        return max(nums[0], nums[1]) + self.reverseRob(nums[3:]);
+        move[0] = nums[0];
+        move[1] = max(nums[1], nums[0]);
+        for i in range(2, n):
+            move[i] = max(move[i-1], nums[i] + move[i-2]);
+        return move[len(move)-1];
 
 sol = Solution();
 sol.rob([183,219,57,193,94,233,202,154,65,240,97,234,100,249,186,66,90,238,168,128,177,235,50,81,185,165,217,207,88,80,112,78,135,62,228,247,211]);
