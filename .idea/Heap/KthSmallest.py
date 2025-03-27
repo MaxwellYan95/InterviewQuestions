@@ -1,9 +1,29 @@
 class Solution:
-    def kSmallestPairs(self, nums1: List[int], nums2: List[int], k: int) -> List[List[int]]:
-        if len(nums1) == 1 and len(nums2) == 1:
-            return [[nums1[0], nums2[0]]];
-        results = [];
-        if (nums1[len(nums1)-1] < nums2[len(nums2)-1]):
-            results = self.kSmallestPairs(nums1, nums2[:len(nums2)-1]);
-        else:
-            results = self.kSmallestPairs(nums1[:len(nums1)-1], nums2);
+    def kSmallestPairs(self, nums1: list[int], nums2: list[int], k: int) -> list[list[int]]:
+        index1 = 0;
+        index2 = 0;
+        if k == 0:
+            return [[]]
+        pairs = [[nums1[index1], nums2[index2]]];
+        counter = 1;
+        while True:
+            if counter == k:
+                break;
+
+            if nums1[index1+1]+nums2[index2] < nums1[index1]+nums2[index2+1]:
+                pairs.append([nums1[index1+1], nums2[index2]]);
+                index1 = index1 + 1;
+            else:
+                pairs.append([nums1[index1], nums2[index2+1]]);
+                index2 = index2 + 1;
+            if index1 == len(nums1)-1:
+                index1 = 0;
+                index2 = index2 + 1;
+            if index2 == len(nums2)-1:
+                index2 = 0;
+                index1 = index1 + 1;
+        counter = counter + 1;
+        return pairs;
+
+sol = Solution();
+print(sol.kSmallestPairs([1,7,11], [2,4,6], 7));

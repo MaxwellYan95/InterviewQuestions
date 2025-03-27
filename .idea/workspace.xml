@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d4acb8e-65c5-4fc5-9bff-f170461d098d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/1DDP/CoinChange.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/1DDP/CoinChange.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/1DDP/HouseRobber.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/1DDP/HouseRobber.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Divide&amp;Conquer/SortList.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Divide&amp;Conquer/SortList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Mult-dimDP/Interleaving.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Mult-dimDP/Interleaving.py" afterDir="false" />
+    <list default="true" id="7d4acb8e-65c5-4fc5-9bff-f170461d098d" name="Changes" comment="Completed CoinChange.py, HouseRobber.py, and SortList.py">
+      <change beforePath="$PROJECT_DIR$/.idea/BinarySearch/PeakElement.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BinarySearch/PeakElement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Heap/KthSmallest.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Heap/KthSmallest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Mult-dimDP/LongPalin.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Mult-dimDP/LongPalin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Mult-dimDP/minimumPathSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Mult-dimDP/minimumPathSum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TwoPointers/container.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TwoPointers/container.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,18 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "MaxwellYan95"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MaxwellYan95&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/MaxwellYan95/InterviewQuestions",
-    "accountId": "5a544115-57ae-48ab-aa79-ac3abe49954a"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MaxwellYan95/InterviewQuestions&quot;,
+    &quot;accountId&quot;: &quot;5a544115-57ae-48ab-aa79-ac3abe49954a&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4
@@ -50,6 +51,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.CoinChange.executor": "Run",
+    "Python.KthSmallest.executor": "Run",
+    "Python.container.executor": "Debug",
+    "Python.minimumPathSum.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -67,7 +71,20 @@
       <option name="presentableId" value="Default" />
       <updated>1742955166917</updated>
     </task>
+    <task id="LOCAL-00001" summary="Completed CoinChange.py, HouseRobber.py, and SortList.py">
+      <option name="closed" value="true" />
+      <created>1742959325731</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742959325731</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Completed CoinChange.py, HouseRobber.py, and SortList.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed CoinChange.py, HouseRobber.py, and SortList.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -76,6 +93,21 @@
           <url>file://$PROJECT_DIR$/.idea/1DDP/CoinChange.py</url>
           <line>18</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/.idea/TwoPointers/container.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/.idea/Mult-dimDP/minimumPathSum.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/.idea/Heap/KthSmallest.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
