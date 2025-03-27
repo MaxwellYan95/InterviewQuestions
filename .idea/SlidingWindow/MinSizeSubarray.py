@@ -2,23 +2,30 @@ import statistics
 import sys
 
 class Solution:
-    def minSubArrayLen(self, target: int, nums: List[int]) -> int:
-        # Maybe the sum is at the max int value
-        if sum(nums) < target:
-            return 0;
-        if sum(nums) == sys.max
-        newTarget = sum(nums) - target;
-        return self.traverse(newTarget, nums);
+    def minSubArrayLen(self, target: int, nums: list[int]) -> int:
+        total = sum(nums);
+        return self.traverse(target, nums, total);
 
-    def traverse(self, target: int, nums: List[int]) -> int:
-        if (target == 0):
-            return len(nums);
-        if (target < 0):
-            return len(nums) + 1;
-        first = nums[0];
-        last = nums[len(nums)-1];
-        if first == last:
-            return min(self.traverse(target-first, nums[1:]), self.traverse(target-last, nums[:len(nums)-1]));
-        if first < last:
-            return self.traverse(target-first, nums[1:]);
-        return self.traverse(target-last, nums[:len(nums)-1]);
+    def traverse(self, target: int, nums: list[int], total: int) -> int:
+        left = 0;
+        right = len(nums)-1;
+        while left < right:
+            if nums[left] < nums[right]:
+                left = left + 1;
+                total = total - nums[left];
+            elif nums[left] > nums[right]:
+                right = right - right;
+                total = total - nums[right];
+            else:
+                leftCall = self.traverse(target, nums[left+1: right], total)
+                if leftCall != 0:
+                    return leftCall;
+                else:
+                    rightCall = self.traverse(target, nums[left: right-1], total)
+                    if rightCall != 0:
+                        return rightCall;
+                    else:
+                        break;
+            if total < target:
+                return right - left + 1;
+        return 0;
