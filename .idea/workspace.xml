@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d4acb8e-65c5-4fc5-9bff-f170461d098d" name="Changes" comment="Solving MinSizeSubarray.py">
-      <change afterPath="$PROJECT_DIR$/.idea/1DDP/LongestIncrease.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/GraphGeneral/clone.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/LinkedList/CopyRandomPointer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TwoPointers/3Sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TwoPointers/3Sum.py" afterDir="false" />
+    <list default="true" id="7d4acb8e-65c5-4fc5-9bff-f170461d098d" name="Changes" comment="Finished 3Sum and CopyOfRandomPointer.&#10;&#10;Still working on graph clone and LongestIncrease.py">
+      <change afterPath="$PROJECT_DIR$/.idea/Math/MaxPoints.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/1DDP/WordBreak.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/1DDP/WordBreak.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +51,7 @@
     "Python.CoinChange.executor": "Run",
     "Python.KthSmallest.executor": "Run",
     "Python.LongestIncrease.executor": "Debug",
+    "Python.MaxPoints.executor": "Run",
     "Python.container.executor": "Debug",
     "Python.minimumPathSum.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -96,14 +95,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743098806643</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Finished 3Sum and CopyOfRandomPointer.&#10;&#10;Still working on graph clone and LongestIncrease.py">
+      <option name="closed" value="true" />
+      <created>1743451118032</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743451118032</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Completed CoinChange.py, HouseRobber.py, and SortList.py" />
     <MESSAGE value="Completed multiple problems" />
     <MESSAGE value="Solving MinSizeSubarray.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solving MinSizeSubarray.py" />
+    <MESSAGE value="Finished 3Sum and CopyOfRandomPointer.&#10;&#10;Still working on graph clone and LongestIncrease.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished 3Sum and CopyOfRandomPointer.&#10;&#10;Still working on graph clone and LongestIncrease.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -138,7 +146,17 @@
           <line>11</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/.idea/Math/MaxPoints.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="self" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
