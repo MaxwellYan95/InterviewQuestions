@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d4acb8e-65c5-4fc5-9bff-f170461d098d" name="Changes" comment="Finished 3Sum and CopyOfRandomPointer.&#10;&#10;Still working on graph clone and LongestIncrease.py">
-      <change afterPath="$PROJECT_DIR$/.idea/Math/MaxPoints.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/1DDP/WordBreak.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/1DDP/WordBreak.py" afterDir="false" />
+    <list default="true" id="7d4acb8e-65c5-4fc5-9bff-f170461d098d" name="Changes" comment="Export workspace.xml">
+      <change afterPath="$PROJECT_DIR$/.idea/Mult-dimDP/MaxSquare.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +51,7 @@
     "Python.KthSmallest.executor": "Run",
     "Python.LongestIncrease.executor": "Debug",
     "Python.MaxPoints.executor": "Run",
+    "Python.WordBreak.executor": "Run",
     "Python.container.executor": "Debug",
     "Python.minimumPathSum.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -103,7 +103,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743451118032</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Finished MaxPoints.py and WordBreak.py">
+      <option name="closed" value="true" />
+      <created>1743454549599</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743454549599</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Export workspace.xml">
+      <option name="closed" value="true" />
+      <created>1743454564656</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743454564656</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -111,7 +127,9 @@
     <MESSAGE value="Completed multiple problems" />
     <MESSAGE value="Solving MinSizeSubarray.py" />
     <MESSAGE value="Finished 3Sum and CopyOfRandomPointer.&#10;&#10;Still working on graph clone and LongestIncrease.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished 3Sum and CopyOfRandomPointer.&#10;&#10;Still working on graph clone and LongestIncrease.py" />
+    <MESSAGE value="Finished MaxPoints.py and WordBreak.py" />
+    <MESSAGE value="Export workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Export workspace.xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
