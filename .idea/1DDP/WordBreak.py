@@ -1,19 +1,16 @@
 class Solution:
-    def wordBreak(self, s: str, wordDict: List[str]) -> bool:
-        sortedWord = sorted(wordDict, key=len, reverse=True);
-        return self.iteration(s, sortedWord);
-    def iteration(self, s: str, wordDict: List[str]) -> bool:
-        if len(s) == 0:
-            return True;
-        if len(wordDict[len(wordDict)-1]) > len(s):
-            return False;
-        for word in wordDict:
-            isLength = (len(word) <= len(s));
-            if s[0: len(word)] == word and isLength:
-                iter = self.iteration(s[len(word):], wordDict);
-                if iter == True:
-                    return True;
-        return False;
+    def wordBreak(self, s: str, wordDict: list[str]) -> bool:
+        n = len(s);
+        dp = [False] * (n+1);
+        dp[0] = True;
+        maxLen = max([len(i) for i in wordDict]);
+        minLen = min([len(i) for i in wordDict]);
+        for i in range(1, n+1):
+            for j in range(0, i):
+                if s[j: i] in wordDict and dp[j] == True:
+                    dp[i] = True;
+        return dp[n];
+
 
 sol = Solution();
 sol.wordBreak("leetcode", ["leet", "code"]);
