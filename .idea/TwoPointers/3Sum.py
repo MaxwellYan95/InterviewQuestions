@@ -10,43 +10,27 @@
 #    return results
 
 def threeSum(nums: list[int]) -> list[list[int]]:
-    result = []
-    max = sorted(nums)[len(nums)-1]
-    min = sorted(nums)[0]
-    negative = []
-    positive = []
-    if (abs(min) > max*2):
-        negative = sorted([n for n in nums if n < 0 and n >= min/2])
-        positive = sorted([n for n in nums if n >= 0], reverse=True)
-    elif (max > abs(min*2)):
-        negative = sorted([n for n in nums if n < 0])
-        positive = sorted([n for n in nums if n >= 0 and n <= max/2], reverse=True)
-    else:
-        negative = sorted([n for n in nums if n < 0])
-        positive = sorted([n for n in nums if n >= 0], reverse=True)
-    sortedNums = sorted(negative + positive)
-    for pos in positive:
-        sortedNums.remove(pos)
-        list = twoSum(sortedNums, -pos)
-        for lst in list:
-            if lst not in result:
-                result.append(list)
-    return result
+    nums.sort();
+    lst = [];
+    for i in range(len(nums)):
+        if i > 0 and nums[i] == nums[i-1]:
+            continue
+        j = i+1;
+        k = len(nums)-1;
+        while j < k:
+            curSum = nums[i] + nums[j] + nums[k];
+            combo = [nums[i], nums[j], nums[k]];
+            if curSum > 0:
+                k -= 1;
+            elif curSum < 0:
+                j += 1;
+            else:
+                lst.append(combo);
+                j += 1;
+                while nums[j] == nums[j-1] and j < k:
+                    j += 1;
+    return lst;
+
+print(threeSum([-1,0,1,2,-1,-4]));
 
 
-
-
-def twoSum(numbers: list[int], target: int) -> list[list[int]]:
-    results = []
-    numSet = set(numbers)
-    dict = {val:numbers.count(val) for val in numSet}
-    keyList = list(dict.keys())
-    for key in keyList:
-        if (target%2 == 0 and key*2 == target and dict.get(key) > 1):
-            results.append(sorted([-target, key, key]))
-        desiredNum = target - key
-        if desiredNum in keyList:
-            results.append(sorted([-target, desiredNum, key]))
-    return results
-
-print(threeSum([-1, 0, 1, 2, -1, -4]))
