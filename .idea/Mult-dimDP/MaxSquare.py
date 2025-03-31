@@ -1,19 +1,16 @@
 class Solution:
     def maximalSquare(self, matrix: list[list[str]]) -> int:
-        maximum = 0;
-        for row in range(len(matrix)):
-            for col in range(len(matrix[0])):
-                if matrix[row][col] == '1':
-                    side = self.traverse(matrix, row, col);
-                    maximum = max(maximum, side*side);
-        return maximum;
+        height = len(matrix);
+        width = len(matrix[0]);
+        dp = [[0 for j in range(width)] for i in range(height)];
+        maxSide = 0;
+        for y in range(height):
+            for x in range(width):
+                if matrix[y][x] == '1':
+                    if x==0 or y==0:
+                        dp[y][x] = 1;
+                    else:
+                        dp[y][x] = min(dp[y-1][x], dp[y][x-1], dp[y-1][x-1]) + 1;
+                    maxSide = max(maxSide, dp[y][x]);
+        return maxSide*maxSide;
 
-    def traverse(self, matrix: list[list[str]], row: int, col: int):
-        if not(0<=row<len(matrix)) or not(0<=col<len(matrix[0])):
-            return 0;
-        if matrix[row][col] == '0':
-            return 0;
-        right = self.traverse(matrix, row, col+1);
-        down = self.traverse(matrix, row+1, col);
-        diagonal = self.traverse(matrix, row+1, col+1);
-        return 1 + min(right, down, diagonal);
