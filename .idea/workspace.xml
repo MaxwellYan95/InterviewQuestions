@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d4acb8e-65c5-4fc5-9bff-f170461d098d" name="Changes" comment="Completed MaxSquare.py">
-      <change afterPath="$PROJECT_DIR$/.idea/BinarySearch/MinRotatedSort.py" afterDir="false" />
+    <list default="true" id="7d4acb8e-65c5-4fc5-9bff-f170461d098d" name="Changes" comment="Modified workspace.xml">
+      <change afterPath="$PROJECT_DIR$/.idea/Intervals/MinBalloons.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Stack/PolishNotation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,24 +45,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.3Sum.executor": "Run",
-    "Python.CoinChange.executor": "Run",
-    "Python.KthSmallest.executor": "Run",
-    "Python.LongestIncrease.executor": "Debug",
-    "Python.MaxPoints.executor": "Run",
-    "Python.WordBreak.executor": "Run",
-    "Python.container.executor": "Debug",
-    "Python.minimumPathSum.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/dvdma/Desktop/InterviewQuestions"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.3Sum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CoinChange.executor&quot;: &quot;Run&quot;,
+    &quot;Python.KthSmallest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LongestIncrease.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.MaxPoints.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MinRotatedSort.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.WordBreak.executor&quot;: &quot;Run&quot;,
+    &quot;Python.container.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.minimumPathSum.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dvdma/Desktop/InterviewQuestions&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -135,7 +137,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743457608307</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Completed MinRotatedSort.py">
+      <option name="closed" value="true" />
+      <created>1743459101242</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1743459101242</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Modified workspace.xml">
+      <option name="closed" value="true" />
+      <created>1743459116325</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1743459116325</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -147,7 +165,9 @@
     <MESSAGE value="Export workspace.xml" />
     <MESSAGE value="Solving MaxSquare.py" />
     <MESSAGE value="Completed MaxSquare.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed MaxSquare.py" />
+    <MESSAGE value="Completed MinRotatedSort.py" />
+    <MESSAGE value="Modified workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified workspace.xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -186,6 +206,11 @@
           <url>file://$PROJECT_DIR$/.idea/Math/MaxPoints.py</url>
           <line>34</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/.idea/BinarySearch/MinRotatedSort.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
